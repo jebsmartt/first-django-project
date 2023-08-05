@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T22:33:01.032Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="MbotvfRDBdN-ioY9hXAM" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T03:17:34.772Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="j0neQp7y4li3E2C8UhKe" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1015" dy="482" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -10,12 +10,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-5" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="76" width="1449" height="360" as="geometry">
+          <mxGeometry x="50" y="76" width="1684" height="360" as="geometry">
             <mxRectangle x="-230" y="292" width="32" height="55" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-6" value="&lt;div&gt;Project&lt;/div&gt;" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="8sbL9mn9Djze76Np5dDg-5">
-          <mxGeometry x="20" width="1429" height="120" as="geometry" />
+          <mxGeometry x="20" width="1664" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="8sbL9mn9Djze76Np5dDg-6" target="8sbL9mn9Djze76Np5dDg-10">
           <mxGeometry relative="1" as="geometry">
@@ -31,10 +31,10 @@
           <mxGeometry x="325" y="28" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-27" value="In settings.py in INSTALLED_APPS add a reference to the app config" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8sbL9mn9Djze76Np5dDg-6">
-          <mxGeometry x="803" y="28" width="120" height="60" as="geometry" />
+          <mxGeometry x="975" y="28" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-7" value="&lt;div&gt;App&lt;/div&gt;" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="8sbL9mn9Djze76Np5dDg-5">
-          <mxGeometry x="20" y="120" width="1429" height="120" as="geometry" />
+          <mxGeometry x="20" y="120" width="1664" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="8sbL9mn9Djze76Np5dDg-7" source="8sbL9mn9Djze76Np5dDg-15" target="8sbL9mn9Djze76Np5dDg-16">
           <mxGeometry relative="1" as="geometry" />
@@ -52,31 +52,40 @@
           <mxGeometry x="325" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-35" value="Register your model with admin to allow admin access" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8sbL9mn9Djze76Np5dDg-7">
-          <mxGeometry x="1140" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="1312" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-26" value="Create models in models.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8sbL9mn9Djze76Np5dDg-7">
-          <mxGeometry x="648" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="820" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8sbL9mn9Djze76Np5dDg-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8sbL9mn9Djze76Np5dDg-7" source="8sbL9mn9Djze76Np5dDg-36" target="8sbL9mn9Djze76Np5dDg-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8sbL9mn9Djze76Np5dDg-36" value="Create a templates dir with an &lt;i&gt;appname&lt;/i&gt; dir" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8sbL9mn9Djze76Np5dDg-7">
+          <mxGeometry x="518" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8sbL9mn9Djze76Np5dDg-38" value="Create an HTML template in &lt;i&gt;appname&lt;/i&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="8sbL9mn9Djze76Np5dDg-7">
+          <mxGeometry x="669" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-8" value="Browser or Console" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="8sbL9mn9Djze76Np5dDg-5">
-          <mxGeometry x="20" y="240" width="1429" height="120" as="geometry" />
+          <mxGeometry x="20" y="240" width="1664" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-22" value="browser should display http://127.0.0.1:8000/apppath/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8sbL9mn9Djze76Np5dDg-8">
           <mxGeometry x="497" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-25" value="migrate the database" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8sbL9mn9Djze76Np5dDg-8">
-          <mxGeometry x="648" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="820" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="8sbL9mn9Djze76Np5dDg-8" source="8sbL9mn9Djze76Np5dDg-28" target="8sbL9mn9Djze76Np5dDg-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-28" value="makemigrations to tell Django that we adjusted models" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8sbL9mn9Djze76Np5dDg-8">
-          <mxGeometry x="809" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="981" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-32" value="migrate the database" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8sbL9mn9Djze76Np5dDg-8">
-          <mxGeometry x="970" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="1142" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-34" value="Create an admin user with createsuperuser" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8sbL9mn9Djze76Np5dDg-8">
-          <mxGeometry x="1138" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="1310" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8sbL9mn9Djze76Np5dDg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="8sbL9mn9Djze76Np5dDg-5" source="8sbL9mn9Djze76Np5dDg-17" target="8sbL9mn9Djze76Np5dDg-18">
           <mxGeometry relative="1" as="geometry" />
